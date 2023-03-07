@@ -107,16 +107,7 @@
   },
   {
     "ModuleName": "PCPage/간트차트페이지",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "LAPTOP-K6S99HCL\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-03-07T15:53:47.9153151+09:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\간트차트페이지.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "PCPage/작업추가페이지",
@@ -136,20 +127,7 @@
   },
   {
     "ModuleName": "Theme",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "LAPTOP-K6S99HCL\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-03-07T15:55:21.2379159+09:00",
-    "ModuleType": 9,
-    "ToRemoveFiles": [
-      "Theme\\CellTypeStyles",
-      "Theme\\ListViewStyles",
-      "Theme\\StyleDefaultNames",
-      "Theme\\ThemeConfig",
-      "C:\\Users\\hdg89\\Documents\\ForguncyCollaboration\\ganttchart2-master\\Reports\\DefaultTheme.rdlx-theme"
-    ]
+    "ModuleType": 9
   },
   {
     "ModuleName": "ImageSelector",
@@ -161,22 +139,7 @@
   },
   {
     "ModuleName": "CustomLibrary",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "LAPTOP-K6S99HCL\\hdg89",
-      "Email": "example@example.com"
-    },
-    "LockDateTime": "2023-03-07T15:51:29.5272452+09:00",
-    "ModuleType": 12,
-    "ToRemoveFiles": [
-      "CustomLibraries",
-      "UserFile\\Main.css",
-      "UserFile\\NanumSquareNeoOTF-aLt.otf",
-      "UserFile\\NanumSquareNeoOTF-bRg.otf",
-      "UserFile\\NanumSquareNeoOTF-cBd.otf",
-      "UserFile\\NanumSquareNeoOTF-dEb.otf",
-      "UserFile\\NanumSquareNeoOTF-eHv.otf"
-    ]
+    "ModuleType": 12
   },
   {
     "ModuleName": "ShareCommand",

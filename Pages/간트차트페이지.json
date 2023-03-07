@@ -405,6 +405,7 @@
         "FontFamily": 4
       },
       {
+        "FontFamily": 4,
         "Foreground": 2
       },
       {
@@ -421,7 +422,7 @@
         "BorderRight": null
       },
       {
-        "FontFamily": 4,
+        "FontFamily": 7,
         "Foreground": 2
       },
       {
@@ -429,23 +430,24 @@
         "FontWeight": 1
       },
       {
-        "FontFamily": 5,
-        "Foreground": 7
+        "FontFamily": 4,
+        "FontWeight": 1,
+        "Foreground": 8
       },
       {
-        "FontFamily": 5
+        "FontFamily": 9
       },
       {
         "FontFamily": 0,
         "FontSize": 21.333333333333332,
         "Foreground": 2,
-        "Formatter": 8
+        "Formatter": 10
       },
       {
         "FontFamily": 0,
         "FontSize": 21.333333333333332,
-        "Foreground": 9,
-        "Formatter": 8
+        "Foreground": 11,
+        "Formatter": 10
       },
       {
         "FontFamily": 4
@@ -492,7 +494,7 @@
       },
       {
         "FontFamily": 4,
-        "Formatter": 11
+        "Formatter": 13
       },
       {
         "BorderRight": 0
@@ -515,7 +517,7 @@
         "FontWeight": 1
       },
       {
-        "Foreground": 9
+        "Foreground": 11
       }
     ],
     "Types": {
@@ -525,9 +527,11 @@
         "Text 1 15",
         "Background 1 -15",
         "나눔스퀘어 네오 OTF Regular",
-        "Body",
+        "나눔스퀘어 네오 OTF Bold",
         "Center",
+        "나눔스퀘어 네오 Regular",
         "#FF6D7BE2",
+        "Body",
         "[AUTO]General",
         "Text 1 25",
         "DarkGray",
@@ -535,7 +539,7 @@
       ],
       "Borders": [
         {
-          "Color": 10
+          "Color": 12
         }
       ]
     },
@@ -555,7 +559,7 @@
       "9,2": 4,
       "9,4": 6,
       "10,2": 4,
-      "10,4": 6,
+      "10,4": 2,
       "12,2": 7,
       "12,13": 8,
       "14,2": 9,
@@ -995,7 +999,7 @@
       "45": 29
     },
     "SheetStyle": {
-      "FontFamily": 5
+      "FontFamily": 9
     }
   },
   "Spans": [
@@ -1053,4 +1057,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//CCAiS+3XBbog7hgYTWZ9V86hvnzUbbOMFPJGctL9wT+p8bPveFRDL5VpePU2fKXYPlmFmkGQLZdcDzLdYIlMno63ZGxaCSc+QU6q9qya9p2xWo9SVJ3vMYSKawK44P52OcRR9pTkPln1v4bHGl0gzaIaP+74AS+LJ25QwRfk3zFnOtNgOapMaTye5RmQqvocMLLeGlzGRJlcKgHRrGbYHtgvNrAi2QJ3PgCZr7CRRR/m7YTaSxJylnZBkwJHSzJt7vapJab9WKv/JKvSu7+lgPxw9eufrrqYVwo9UOecMCxuajb2QwPrp4Ort0WY/JbGOH5Xb8PFQodmLyQTpOPzhmoGnuk+C3E1hqzmhYxjqeGNPfG+rax6N38Q/D2l7qzdtT2tlDwibICknbDBQbErjruXjqQdgIbzXNjQY/EZK7vNfW7SQkv/gPq1fWc74NpHU0gf3GL8L682LhEBAAYO0lMa5G+MTsnqkuxuUorVRNx+EmJmCkZjvTqVWKGmY/alFq9h+djksKVSRVvoSUuFFfen+5lBSEygIeBD/6LM9F4aob7lLTny+jNKx7tjfBODnwh76qli9KLI1LZXHZt0uymRrwddbremzinXK6OvIC7cNf/h2yIT+d0xDc5U+kXAi59Ep74S8VNDe45RZj/tyEnG5jYZ12GnyhqNGQoX4h8ELIW79n+ViLxTZU/WKqViUufsh6unRsBKIwjmIXcG/a3+q1njniu6GRFkQxnMMLhXkBpPk0IiLokfUE6CLRh1W8odmNaB53W6/NnafnLp9pApJuZZyVQmNAjb24AmufUHZ3NMw8IzaAQH9EfL5xOBsNDqt16gb0zyAvPAHnw6fummcJxfG/JCHNcfjW6AEfT4CnCYTvTfmyb56KL1T51mtE9H8NlPoobd0LyXaDlRMg==|920
+}//13wHwb+P8JPbGjoil2T3ZIiv8sPgB0q6V+F1rkAeAlHI73qAc/nyjoz4UJrXrmEwbPeNB2Z0ZYfH23l3yHYv+wgPibV+OtXI3AJC96URgpwxH0up67XXy+63+oAX6UGurqlpDI1H2jUSMsbZ3o0Btg5NfWZ/vTtfvXb3791sLpvWpvZgpakcHi7s9eVXP8ya4Rmpw/3vWlXelpmtDkd3zd3WCEUUt5cErQPYAGGOJDcoKss8QtpSFWRE6egJLlM3EStBJ4XHZbRRe0np/VST8FetQ1K6iZCJjT3U5e/kdTpeh4vU7YgZrTrn2twjkitZBR2KJg8T3XxQYtowOU2Z7yJ0h4lrpfm5TeUD65DQ/KgX/+aubCfBDjL/NPWGcFIc9O9aZK25oEu0edkbatTEcAx8PP+YFJaxWTypFu6UUqyEOhcJ4MR4rXv2g5OI0s0HbC6cRmpTJ0mJE+nWS5enhF8V8FwUZvo9fkz1gsXw691cMsvuwM3Ugh1BvR6mooR5bchV/rwvjoPNAAhAIfUSmFRpqQZgFBlQf6zzGKeTWGXsOT9Fsi0WQiD1hH90S19Kq+qh9zAPtdzksY90CemfZvKvER0rO8n0JWyLvZPbO4vKPwWIRFljEX8PvQewBWnzgqb5+41EDDKox5rnPIpy4i7XiVTvNk4BOW+tfoA7fepTWBJCImlrI5yTks//cwqXPAMahIk5MQ9w7zEuQS9dk364iC/8S2mgJjrwsAm7ZGNzoSSpJ+81Kx8zWVIiHvv2Ylnz3UkNQ931DN7gdvzxrivc3R23ZdcCpZsT2KltP83ahInaDyTeNp2Tdg7QpcUXFym9GqoPPPXHKSgREHVnOMX+HlzIrd3GTL6qgnQNnuHecoigj/Ao+KsMPYpIkLM2UJ48uRdWHGr8i/Jv/la+zg==|920

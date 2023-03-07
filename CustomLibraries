@@ -2,7 +2,7 @@
 <CustomLibraries>
   <UserCSSFileList>
     <Item class="Forguncy.Model.UserJSOrCssFile" assembly="ServerDesignerCommon">
-      <Name>Main.css</Name>
+      <Name>MainPageCss.css</Name>
     </Item>
   </UserCSSFileList>
 </CustomLibraries>
