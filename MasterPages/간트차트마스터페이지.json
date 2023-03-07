@@ -1,0 +1,270 @@
+{
+  "Rows": {
+    "Count": 47
+  },
+  "Cols": {
+    "Count": 95
+  },
+  "Values": {
+    "1,3": "GrapeCity",
+    "1,10": "Gantt Chart (간트차트)",
+    "1,20": "Gannt 프로젝트 파일 다운로드",
+    "1,32": "만드는 방법",
+    "1,37": "포건시 빌더 다운로드"
+  },
+  "AttachInfos": {
+    "1,10": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "PageName": "간트차트페이지",
+            "PassValues": []
+          }
+        ],
+        "Text": "Gantt Chart (간트차트)",
+        "ClickMode": 1
+      }
+    },
+    "1,20": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "Text": "Gannt 프로젝트 파일 다운로드",
+        "TemplateKey": "_RS_Normal_Style2",
+        "Icon": {
+          "Name": "Navigation/193_download_8.svg",
+          "BuiltIn": true,
+          "Color": "Background 1",
+          "UseCellTypeForeColor": true
+        }
+      }
+    },
+    "1,32": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "URL": "https://dev.grapecity.co.kr/bbs/board.php?bo_table=forguncy_bntips&wr_id=8",
+            "PassValues": [],
+            "IsOpenInNewTab": true
+          }
+        ],
+        "Text": "만드는 방법",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "1,37": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "URL": "https://www.grapecity.co.kr/download/forguncy",
+            "PassValues": [],
+            "IsOpenInNewTab": true
+          }
+        ],
+        "Text": "포건시 빌더 다운로드",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "4,11": {
+      "IsPlaceHolderCell": true
+    },
+    "5,1": {
+      "CellType": {
+        "$type": "Forguncy.CustomMenu.ForguncyMenuCellType, Forguncy.CustomMenu",
+        "TemplateKey": "스타일1",
+        "Items": [
+          {
+            "Text": "간트차트",
+            "SelectedIconColor": "Background 1",
+            "SelectedIconColorUseItemColor": true,
+            "IconColor": null,
+            "IconColorUseItemColor": true,
+            "IsOldMenuPath": false,
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Text": "간트차트 확인",
+                "IconPath": "Chart/364_bar_chart_1.svg",
+                "SelectedIconColor": "Background 1",
+                "SelectedIconColorUseItemColor": true,
+                "IconColorUseItemColor": true,
+                "IsOldMenuPath": false,
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+                    "PageName": "간트차트페이지",
+                    "PassValues": []
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_Anonymous"
+                ]
+              }
+            ]
+          }
+        ],
+        "MenuLevelsStyle": [
+          {
+            "FontSize": 16.0,
+            "Bold": true,
+            "Height": 45.0,
+            "Width": 200.0,
+            "IconHeight": 15.0,
+            "IconWidth": 15.0
+          },
+          {
+            "FontSize": 13.333333333333332,
+            "Bold": false,
+            "Height": 32.0,
+            "Width": 200.0,
+            "IconHeight": 15.0,
+            "IconWidth": 15.0
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 24.0,
+        "Foreground": 1
+      },
+      {
+        "FontSize": 16.0,
+        "FontWeight": 2,
+        "Foreground": 1,
+        "Underline": false
+      },
+      {
+        "Background": 3,
+        "FontFamily": 4,
+        "Formatter": 5
+      },
+      {
+        "Background": 3,
+        "FontFamily": 6
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 8
+      },
+      {
+        "Background": 3
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "나눔스퀘어 네오 OTF Heavy",
+        "Background 1 0",
+        "Bold",
+        "#FFF29336",
+        "나눔스퀘어 네오 OTF Bold",
+        "[AUTO]General",
+        "Body",
+        "Background 1 -15",
+        "나눔스퀘어 네오 OTF Regular"
+      ],
+      "Borders": [
+        {
+          "Color": 7
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,3": 0,
+      "1,10": 1,
+      "1,20": 2,
+      "1,32": 2,
+      "1,33": 3,
+      "1,34": 3,
+      "1,35": 3,
+      "1,36": 3,
+      "1,37": 2,
+      "2,32": 3,
+      "2,33": 3,
+      "2,34": 3,
+      "2,35": 3,
+      "2,36": 3,
+      "4,10": 4,
+      "5,1": 5,
+      "5,10": 4,
+      "6,10": 4,
+      "7,10": 4,
+      "8,10": 4,
+      "9,10": 4,
+      "10,10": 4,
+      "11,10": 4,
+      "12,10": 4,
+      "13,10": 4,
+      "14,10": 4,
+      "15,10": 4,
+      "16,10": 4,
+      "17,10": 4,
+      "18,10": 4,
+      "19,10": 4,
+      "20,10": 4,
+      "21,10": 4,
+      "22,10": 4,
+      "23,10": 4,
+      "24,10": 4,
+      "25,10": 4,
+      "26,10": 4,
+      "27,10": 4,
+      "28,10": 4,
+      "29,10": 4,
+      "30,10": 4,
+      "31,10": 4,
+      "32,10": 4,
+      "33,10": 4,
+      "34,10": 4,
+      "35,10": 4,
+      "36,10": 4,
+      "37,10": 4,
+      "38,10": 4,
+      "39,10": 4,
+      "40,10": 4,
+      "41,10": 4,
+      "42,10": 4,
+      "43,10": 4,
+      "44,10": 4,
+      "45,10": 4,
+      "46,10": 4
+    },
+    "RowStyles": {
+      "0": 6,
+      "1": 6,
+      "2": 6,
+      "3": 6
+    },
+    "SheetStyle": {
+      "FontFamily": 6
+    }
+  },
+  "Spans": [
+    "1,3,2,7",
+    "5,1,42,9",
+    "4,11,43,84",
+    "1,10,2,9",
+    "1,32,2,5",
+    "1,20,2,12",
+    "1,37,2,8"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon"
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//Fjm/atgOJuWSZdbQYZ8Cm7ZK3h9hXpA1/etMeeB//tZzvbPjWHkxGiJ/MQReLop1KXSk1pMNNXkkYp+3OFYJ3O6xky4xO1CPr9ujfYBOw9EJ7ZmsEk9vsGBNsPslK5nn+jmljlb2V+AcV7vEpnofybl1hGb+aox8RZ1vCZZGAI6JefSEaxMbO8Fq6IS9AXtT8A1sNqmPVi7a00mdqT1dkA/48vTcRfpDtb4NxO7xnncB4ErJTci5AkkEMySqkM3ZEEh/88LP/AwqKT5flbaO1xHrZYOtiQXKSCHrNARUZ/iyi8nqXugjhpIl/hZUVOQNmR5KkfoHbYq/E8Cum6XLviNPWvAeUamXqrerfyT+1Bh0x70E6JZj6FNNrhNUB340pmofVaJanoz/AivjHezNmAQA+qTo6N08L/cFnGc3brkqvXCgjgSFAGi3PtXrlnmF5ZYuuMPBNOlZiAMoWLtvbJpSPB+8NiSwCg4/3xq81rfzSQOo0VHBRaVUFJXqiaaNvXrd746ljm5a2xHpdnB33XRW8JfOLoD5qAyX4ALI0wtasv6zwW28/fBpYINk+6hT6VDAD5DmntHSxhaT3TDOWORpmhcnf6XEep1C7Pkg+jlWnqjO+dhHBHk1pPxG9soZ0xNAWS2Oxgn/yD7nKhw9CK/lYbCoqPm7bvE8MqZvye+n1ysf+0jkMH5w3z7ExmzTm6/lLy1ckwEdOEAbUSQ0JvH88zs0uv/lp09mqMwueNe+0RIKqLTEIhlnF4dN4PiYxB0E+mGlD23955Ktd27RtP5RTyUYgaem+2ROZ/QDio07ZApVF5LxOKIfFU7D8LtZkc+M7p5vvW7YZnWoQ/NihbtOQVbAcYFwziNXCHpMi9bFLgFNq6CI+ri2YcdIQmQGWeCsmA0I6eUidJLWsz/6eQ==|920

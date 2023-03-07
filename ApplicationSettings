@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationSettings>
+  <IntegrateWithOtherApplication>
+    <Password>a(D7nKP*Pa3M</Password>
+  </IntegrateWithOtherApplication>
+  <LoadingIndicatorSettings>
+    <CSSLoading>FulfillingBouncingCircleLoading</CSSLoading>
+  </LoadingIndicatorSettings>
+  <StartDateFiscalYear>4</StartDateFiscalYear>
+  <UserServicePort>30205</UserServicePort>
+  <WebSitePort>10278</WebSitePort>
+</ApplicationSettings>
