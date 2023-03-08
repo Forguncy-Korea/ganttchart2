@@ -30,6 +30,14 @@
     "1,20": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
+            "URL": "https://dev.grapecity.co.kr/bbs/download.php?bo_table=forguncy_bntips&wr_id=8&no=1&page=1",
+            "PassValues": [],
+            "IsOpenInNewTab": true
+          }
+        ],
         "Text": "Gannt 프로젝트 파일 다운로드",
         "TemplateKey": "_RS_Normal_Style2",
         "Icon": {
@@ -267,4 +275,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//Fjm/atgOJuWSZdbQYZ8Cm7ZK3h9hXpA1/etMeeB//tZzvbPjWHkxGiJ/MQReLop1KXSk1pMNNXkkYp+3OFYJ3O6xky4xO1CPr9ujfYBOw9EJ7ZmsEk9vsGBNsPslK5nn+jmljlb2V+AcV7vEpnofybl1hGb+aox8RZ1vCZZGAI6JefSEaxMbO8Fq6IS9AXtT8A1sNqmPVi7a00mdqT1dkA/48vTcRfpDtb4NxO7xnncB4ErJTci5AkkEMySqkM3ZEEh/88LP/AwqKT5flbaO1xHrZYOtiQXKSCHrNARUZ/iyi8nqXugjhpIl/hZUVOQNmR5KkfoHbYq/E8Cum6XLviNPWvAeUamXqrerfyT+1Bh0x70E6JZj6FNNrhNUB340pmofVaJanoz/AivjHezNmAQA+qTo6N08L/cFnGc3brkqvXCgjgSFAGi3PtXrlnmF5ZYuuMPBNOlZiAMoWLtvbJpSPB+8NiSwCg4/3xq81rfzSQOo0VHBRaVUFJXqiaaNvXrd746ljm5a2xHpdnB33XRW8JfOLoD5qAyX4ALI0wtasv6zwW28/fBpYINk+6hT6VDAD5DmntHSxhaT3TDOWORpmhcnf6XEep1C7Pkg+jlWnqjO+dhHBHk1pPxG9soZ0xNAWS2Oxgn/yD7nKhw9CK/lYbCoqPm7bvE8MqZvye+n1ysf+0jkMH5w3z7ExmzTm6/lLy1ckwEdOEAbUSQ0JvH88zs0uv/lp09mqMwueNe+0RIKqLTEIhlnF4dN4PiYxB0E+mGlD23955Ktd27RtP5RTyUYgaem+2ROZ/QDio07ZApVF5LxOKIfFU7D8LtZkc+M7p5vvW7YZnWoQ/NihbtOQVbAcYFwziNXCHpMi9bFLgFNq6CI+ri2YcdIQmQGWeCsmA0I6eUidJLWsz/6eQ==|920
+}//STsAmGbfyA3PP9vEx66/dsxKtt24ZLJrYUPxK8SBmQrDr5/gfXDbbSirnednzZjeeGkmmykKa8ny9Mn8qz7X1+d+xWQSRAYUV7FOKSdWVKsCJMenDzdiLd3B1svqem1geZ/tHkeD+NwrsZ9PCbLDmk/oFvVzqMmORc4nvUb/0A0IMLexlLdipCvSp11cl6WFQpBB+Y9PVIzZCzYlZUpZgl280Nz4k/i9U+Q0Wyo+NAQmkSTnFfDSZdAgdNsxeZ4vTAeboWpclAtyecgAocBjCdLS8R8nNpapCWM9lpF2DvCCHpZnWTQIr/Z9vgZ4x7eHk7cX9Ov42tNeEKO8bKm89nrMHk8sKluC4iM7cIRk8S88W0KhoXyvhlg5jk12QekTRTAclWt4ypKG8o1s3Xfk6qAKqdnVx1kGZ2Tm36nE94aBVSR7IIBaZHETuRZ4JgxixI+pODiajf/Z6+SkFTKsgrSKZcE+K9KRWiSzuNXsjLy4tHQydGQuM0HfHUkBd4YztBhIzmnfiP10yLNK52PqwS5Gj2XwfK5fJvM9dkzNd7EjCUA8kOalnKLyrH1u2/84SnGIo4tY9gTeaQnKDuJjYvCQMZduUVOpMoZCW5lllUtT7eOhJ1BA/ReE+VYQYsZdQQIWhKwA9OujOB0J3vd4YBMg+PVmkeRmLovBYmVeY+LmIF4gB7cgpKPbSU7wffmfh1fJ1cu54Mtj+KPqYI5N24cb2W2PmD2br5uxvNAbZb59uuYh/tvWplSlkUuS0poZ8vaOoFClOv5rSFci6SaxIwGn/cNxILBh1MG771OZP9VTqHckMAUqLAowFgi/XQBzZvEDRaKs2Ol3XxZ0DAMAjvrIdDQ3s62OrabL7JVwF5Ic4VlTpsBsD6WoYwjCjKy0Kf+oUOYKBL7xGX1JuiSASw==|920
