@@ -91,6 +91,11 @@
           "DesignLengthInPixel": 10.0
         }
       },
+      "42": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 5.0
+        }
+      },
       "45": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 44.0
@@ -99,11 +104,6 @@
       "46": {
         "GridRowColumnDefinition": {
           "DesignLengthInPixel": 33.0
-        }
-      },
-      "42": {
-        "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 5.0
         }
       }
     },
@@ -153,7 +153,8 @@
           {
             "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
             "URL": "https://dev.grapecity.co.kr/bbs/board.php?bo_table=forguncy_bntips&wr_id=8",
-            "PassValues": []
+            "PassValues": [],
+            "IsOpenInNewTab": true
           }
         ],
         "Text": "간트차트 만드는 방법 자세히 알아보기",
@@ -1059,4 +1060,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//fkT4f+lwwgTSmwONGR7+JLvp0H26SLaceHtP+PIP+skpIzEWxubHmcOqdT5AYWWzzLnQsEKKtroaJdGOkU4vIIf2Ap5V2PVpCCUZ06Qe3v54bomudDco38O1aMhMgK0U2Q58Nc0k24ZsdeBk3ycZVh+do2FJoCWY9knrWK2O4C0BnuS+e+JpFn9fNMXAqJtZ/jmgV+ojl4J0juDmUDpwbG7qNEUVRll9+hDQ6sMzadHR4Ts0swIju4YdjSHTgr8kpVWqi4pQVnoApBOqGnCaoW70kiBwTEXsK/WqXPMDy0ot/mf2KUGOFdiOcwBOjR9yYK6fT92R+neWyzHsyFNAzvocAq5nxq9b2Y/2DEnmLpugVbYN1u2K6M4bpvSzDGlFuPPsy3qqIlCtDgvYmDZHD3uFGqXJacPHInCUe0aGG9at6b8UogZUmLFqoosOF4GzsBZk32dMhWu47oOwv53xzT8BmBkLGfCGafWEjwT2CttSc6c/zFgc0cQYkuc5IWyAkriEqmZbcFBUM5J8ZUa/VqJYea4MrPtupQ6ATa30+awNx63bvN4wSmBNM91Vderg9HSlFQPkM1lLY0Td6T4n/6oM6iiqlWrfwAKJIqU0syQlS5V2d9MFp2lNppq/y2NNBzGg8ecR0yWq6BGhsPT0POciDpMRx8m1ftUAXbfUaTn3TmL0Dy25JdVdYWmuZ5PV7LoJj5IvKYhhvLW5EeULXZWb2odmiUOlvGDqu9pKhRjk9CTziFgWTnbl0/N0gIn03/DVtB2XNbgDO3VjC+RU74TCysipxLP6kRsGkfkdxGdZkMbY8EgVAZe/fWEhLz3WRgkMM7tO+RfwFhkV3k/pCMFUeyIgVJWgQJeeG6mYib+2RpevMbhb/HYx43ASgyLEvWwJWuec50Svmg7KvcUKHA==|920
+}//srJmlWzJYhIpVMtfwTe40nB279kOACHgvfScGMGOtUE7q7m0t1SAfhwcBX7QTWei6wXC9jqxqEJkkfDjSX/c0brDjdT2dGTjBBFZzJqLMVKbauAfHi9Ods1k/kC/qEj6SOYD7LU3zcvihT56PslNki7N6/1bKeROHHKySvkpz2CmxLKVNO+qQ6SNbnMstJdogIjo6SRdTbvT5zDgoE3ovEHeI+jdBO1jvxL5hKQpPf0KZkwerW1FEoOgPAsSAdX8ChKupOp8+iIm4yP+UPYslJgu6reMLCkebRQmQt0IkMigxqmxY1ziekidrVyxsSZlmmnQBLhKtLg0JkxgpaPI2fb9x3cdSluVPVilv3GDQuOziWuLnhuoVljmtuqTm32IGPkfCQbVb+t13+H22T8y151O6pxDJ984WTjTDi1TLPRF5nkWXPhIIaY4qPDik9WsplNyCyAfpq73EyQsakUiTl/8JDfq8MOtyqupjf8CQsRSntzR6AUmnjEihMsIMNspmJpdo72fZyxq50otWkjz0k9AI+yiyndnI8DvWG9lhUm8R8jyxigvL7Dtgxv5VFHP6Hw1QGlqWTrS61oxawkWfIJAonGEYqIOOCsrEL0V6tjWNNOBmLVtzLbJJx+L16ry8zLlo2VX0mQvv7HmKMX36bgb6mqgUYo0/IAmkOvMT7BUnm5OedpkGggSlk/kGVqPKlf6pESWYsCySF5W3xl26ZUBEB/fK+TYx1mMFNAthownE4wmryk1kCHAGEBHGKLIPLTUQesjfVuw0eQ535goGDxW728DcRd4JZHkViINVdt/Hc2CzSJH6/xkuHSPyOh2+YJy+rPzC3gAbhx/sV4EmDsjPDeTQS0B+lsV++Xd2/jF2MtSrzFrXJ5I+naClOWFxSln0DNSoczDTn3r/+ozPQ==|920
