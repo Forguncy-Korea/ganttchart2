@@ -119,7 +119,16 @@
   },
   {
     "ModuleName": "MasterPCPage/간트차트마스터페이지",
-    "ModuleType": 3
+    "State": 1,
+    "LockedBy": {
+      "UserName": "LAPTOP-K6S99HCL\\hdg89",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-03-08T10:08:52.1252436+09:00",
+    "ModuleType": 3,
+    "ToRemoveFiles": [
+      "MasterPages\\간트차트마스터페이지.json"
+    ]
   },
   {
     "ModuleName": "ApplicationSetting",
@@ -127,7 +136,20 @@
   },
   {
     "ModuleName": "Theme",
-    "ModuleType": 9
+    "State": 1,
+    "LockedBy": {
+      "UserName": "LAPTOP-K6S99HCL\\hdg89",
+      "Email": "example@example.com"
+    },
+    "LockDateTime": "2023-03-08T10:08:52.1252436+09:00",
+    "ModuleType": 9,
+    "ToRemoveFiles": [
+      "Theme\\CellTypeStyles",
+      "Theme\\ListViewStyles",
+      "Theme\\StyleDefaultNames",
+      "Theme\\ThemeConfig",
+      "C:\\Users\\hdg89\\Documents\\ForguncyCollaboration\\ganttchart2-master\\Reports\\DefaultTheme.rdlx-theme"
+    ]
   },
   {
     "ModuleName": "ImageSelector",
