@@ -29,28 +29,22 @@
     },
     "1,20": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
         "CommandList": [
           {
             "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
-            "URL": "https://dev.grapecity.co.kr/bbs/download.php?bo_table=forguncy_bntips&wr_id=8&no=1&page=1",
+            "URL": "https://dev.grapecity.co.kr/bbs/download.php?bo_table=forguncy_bntips&wr_id=8&no=1",
             "PassValues": [],
             "IsOpenInNewTab": true
           }
         ],
         "Text": "Gannt 프로젝트 파일 다운로드",
-        "TemplateKey": "_RS_Normal_Style2",
-        "Icon": {
-          "Name": "Navigation/193_download_8.svg",
-          "BuiltIn": true,
-          "Color": "Background 1",
-          "UseCellTypeForeColor": true
-        }
+        "ClickMode": 1
       }
     },
     "1,32": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
         "CommandList": [
           {
             "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
@@ -60,12 +54,12 @@
           }
         ],
         "Text": "만드는 방법",
-        "TemplateKey": "_RS_Normal_Style2"
+        "ClickMode": 1
       }
     },
     "1,37": {
       "CellType": {
-        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "$type": "Forguncy.HyperlinkCellType, ServerDesignerCommon",
         "CommandList": [
           {
             "$type": "Forguncy.Model.NavigateCommand, ServerDesignerCommon",
@@ -75,7 +69,7 @@
           }
         ],
         "Text": "포건시 빌더 다운로드",
-        "TemplateKey": "_RS_Normal_Style2"
+        "ClickMode": 1
       }
     },
     "4,11": {
@@ -155,11 +149,10 @@
       {
         "Background": 3,
         "FontFamily": 4,
-        "Formatter": 5
-      },
-      {
-        "Background": 3,
-        "FontFamily": 6
+        "Foreground": 1,
+        "Formatter": 5,
+        "HorizontalAlignment": 6,
+        "Underline": false
       },
       {
         "BorderRight": 0
@@ -179,9 +172,10 @@
         "#FFF29336",
         "나눔스퀘어 네오 OTF Bold",
         "[AUTO]General",
-        "Body",
+        "Center",
         "Background 1 -15",
-        "나눔스퀘어 네오 OTF Regular"
+        "나눔스퀘어 네오 OTF Regular",
+        "Body"
       ],
       "Borders": [
         {
@@ -194,69 +188,60 @@
       "1,10": 1,
       "1,20": 2,
       "1,32": 2,
-      "1,33": 3,
-      "1,34": 3,
-      "1,35": 3,
-      "1,36": 3,
       "1,37": 2,
-      "2,32": 3,
-      "2,33": 3,
-      "2,34": 3,
-      "2,35": 3,
-      "2,36": 3,
-      "4,10": 4,
-      "5,1": 5,
-      "5,10": 4,
-      "6,10": 4,
-      "7,10": 4,
-      "8,10": 4,
-      "9,10": 4,
-      "10,10": 4,
-      "11,10": 4,
-      "12,10": 4,
-      "13,10": 4,
-      "14,10": 4,
-      "15,10": 4,
-      "16,10": 4,
-      "17,10": 4,
-      "18,10": 4,
-      "19,10": 4,
-      "20,10": 4,
-      "21,10": 4,
-      "22,10": 4,
-      "23,10": 4,
-      "24,10": 4,
-      "25,10": 4,
-      "26,10": 4,
-      "27,10": 4,
-      "28,10": 4,
-      "29,10": 4,
-      "30,10": 4,
-      "31,10": 4,
-      "32,10": 4,
-      "33,10": 4,
-      "34,10": 4,
-      "35,10": 4,
-      "36,10": 4,
-      "37,10": 4,
-      "38,10": 4,
-      "39,10": 4,
-      "40,10": 4,
-      "41,10": 4,
-      "42,10": 4,
-      "43,10": 4,
-      "44,10": 4,
-      "45,10": 4,
-      "46,10": 4
+      "4,10": 3,
+      "5,1": 4,
+      "5,10": 3,
+      "6,10": 3,
+      "7,10": 3,
+      "8,10": 3,
+      "9,10": 3,
+      "10,10": 3,
+      "11,10": 3,
+      "12,10": 3,
+      "13,10": 3,
+      "14,10": 3,
+      "15,10": 3,
+      "16,10": 3,
+      "17,10": 3,
+      "18,10": 3,
+      "19,10": 3,
+      "20,10": 3,
+      "21,10": 3,
+      "22,10": 3,
+      "23,10": 3,
+      "24,10": 3,
+      "25,10": 3,
+      "26,10": 3,
+      "27,10": 3,
+      "28,10": 3,
+      "29,10": 3,
+      "30,10": 3,
+      "31,10": 3,
+      "32,10": 3,
+      "33,10": 3,
+      "34,10": 3,
+      "35,10": 3,
+      "36,10": 3,
+      "37,10": 3,
+      "38,10": 3,
+      "39,10": 3,
+      "40,10": 3,
+      "41,10": 3,
+      "42,10": 3,
+      "43,10": 3,
+      "44,10": 3,
+      "45,10": 3,
+      "46,10": 3
     },
     "RowStyles": {
-      "0": 6,
-      "1": 6,
-      "2": 6,
-      "3": 6
+      "0": 5,
+      "1": 5,
+      "2": 5,
+      "3": 5
     },
     "SheetStyle": {
-      "FontFamily": 6
+      "FontFamily": 9
     }
   },
   "Spans": [
@@ -264,9 +249,9 @@
     "5,1,42,9",
     "4,11,43,84",
     "1,10,2,9",
-    "1,32,2,5",
+    "1,37,2,8",
     "1,20,2,12",
-    "1,37,2,8"
+    "1,32,2,5"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.MasterPage, ServerDesignerCommon"
@@ -275,4 +260,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//STsAmGbfyA3PP9vEx66/dsxKtt24ZLJrYUPxK8SBmQrDr5/gfXDbbSirnednzZjeeGkmmykKa8ny9Mn8qz7X1+d+xWQSRAYUV7FOKSdWVKsCJMenDzdiLd3B1svqem1geZ/tHkeD+NwrsZ9PCbLDmk/oFvVzqMmORc4nvUb/0A0IMLexlLdipCvSp11cl6WFQpBB+Y9PVIzZCzYlZUpZgl280Nz4k/i9U+Q0Wyo+NAQmkSTnFfDSZdAgdNsxeZ4vTAeboWpclAtyecgAocBjCdLS8R8nNpapCWM9lpF2DvCCHpZnWTQIr/Z9vgZ4x7eHk7cX9Ov42tNeEKO8bKm89nrMHk8sKluC4iM7cIRk8S88W0KhoXyvhlg5jk12QekTRTAclWt4ypKG8o1s3Xfk6qAKqdnVx1kGZ2Tm36nE94aBVSR7IIBaZHETuRZ4JgxixI+pODiajf/Z6+SkFTKsgrSKZcE+K9KRWiSzuNXsjLy4tHQydGQuM0HfHUkBd4YztBhIzmnfiP10yLNK52PqwS5Gj2XwfK5fJvM9dkzNd7EjCUA8kOalnKLyrH1u2/84SnGIo4tY9gTeaQnKDuJjYvCQMZduUVOpMoZCW5lllUtT7eOhJ1BA/ReE+VYQYsZdQQIWhKwA9OujOB0J3vd4YBMg+PVmkeRmLovBYmVeY+LmIF4gB7cgpKPbSU7wffmfh1fJ1cu54Mtj+KPqYI5N24cb2W2PmD2br5uxvNAbZb59uuYh/tvWplSlkUuS0poZ8vaOoFClOv5rSFci6SaxIwGn/cNxILBh1MG771OZP9VTqHckMAUqLAowFgi/XQBzZvEDRaKs2Ol3XxZ0DAMAjvrIdDQ3s62OrabL7JVwF5Ic4VlTpsBsD6WoYwjCjKy0Kf+oUOYKBL7xGX1JuiSASw==|920
+}//5xd9ulajR+fcpB0WFB5M6wzEBj0v5Suj3cCRrWfjjAytNEWZW1MK2gwgpOQztNdd6S+fI1Kd+6OratTWmBvvOyP+429zytaxEOAHnUN1iqgpdu8Jrn2p8TExSMXvi58CBCQVSBQMFFDvEPCfZ9htNYB4651WktK2067dMN4EZGLZ5s4ZsHNOCcnRGwIBPJ60Ix4+16z3ejZ6qZgD9eKL+2v1JfAnrI3Uz4TLDB5C7bYCWBApton8yf1KutirWZVqCqV+c8SV/sRX570fNq2znzlRlyA91UuXsbfJNEDZNqL+o54EmJ6Oz/3+l9wudg0jGSO4G//M2U3V1JbwO4DKmPHS9b0oWnemFnDb89Y5HcRV8gSuIX9tpxlCtt9fJT1ctOjGrbsxqrZrCLSjOWYmboZdd5nywOZtkpfcAMLScuB0NWg+b227ZU2yEIhVXzAV78f11J+l512pIg9WGwwcAuIV7Z7Yw4Ubvp79kXh2csuwuwrWLgCJt0iPID21hEFtru/ZzvwRj8OkVUyVavHnQcVIB7a+wDSFdQ0NUhfLk3JDELOMAH2xTl4EClltxGNSV2f9+E7lFoPd3uAmvDQM/6Xbzhfg3m43KyYAywqDroIijKLKzfp8lTGO8veLBIAANlUVd3jTy2thn0s0atIbzKPfzeDYxME8ebJKWYnAY8RgJH+WoYxOvXhbMdCsBQlhXHnodRsXmhZf4HKM4P2Z64OK4DpljteHmnIDarXaRpIM5N+wXkhpKzkeW86OtjwRt41dJmoXytYpvxa/xC8W8thH5X11yVUUuhbyezF9HzOLFlxD8qTY4HdsxlMzKoXPlIA3+JwWs10juRzCaZlerzwnRrpeUwYQ0qGRMWcR9sq/hYUadr0CegCPps6OzIOrNPGYMxVpD/WLF4LILG13Tw==|920
